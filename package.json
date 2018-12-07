@@ -1,26 +1,25 @@
 {
-  "name": "pdfkit",
-  "description": "A PDF generation library for Node.js",
+  "name": "pdfa",
+  "description": "A PDFa generation library for Node.js",
   "keywords": [
     "pdf",
     "pdf writer",
     "pdf generator",
     "graphics",
     "document",
-    "vector"
+    "vector",
+    "pdfa"
   ],
-  "version": "0.8.3",
-  "homepage": "http://pdfkit.org/",
+  "version": "0.0.1",
   "author": {
-    "name": "Devon Govett",
-    "email": "devongovett@gmail.com",
-    "url": "http://badassjs.com/"
+    "name": "Vimal",
+    "email": "ifour.vimal@gmail.com"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/devongovett/pdfkit.git"
+    "url": "https://github.com/ifour-vimal/pdfkit"
   },
-  "bugs": "http://github.com/devongovett/pdfkit/issues",
+  "bugs": "https://github.com/ifour-vimal/pdfkit/issues",
   "devDependencies": {
     "babel-core": "^6.26.3",
     "babel-plugin-external-helpers": "^6.22.0",
@@ -43,7 +42,8 @@
   "dependencies": {
     "fontkit": "^1.0.0",
     "linebreak": "^0.3.0",
-    "png-js": ">=0.1.0"
+    "png-js": ">=0.1.0",
+    "utf8": "^3.0.0"
   },
   "scripts": {
     "prepublishOnly": "npm run build",
